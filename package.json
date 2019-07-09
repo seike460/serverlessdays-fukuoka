@@ -1,0 +1,20 @@
+{
+  "name": "serverlessdays-fukuoka",
+  "version": "1.0.0",
+  "description": "ServerlessDays Fukuoka Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:seike460/serverlessdays-fukuoka.git"
+  },
+  "keywords": [
+    "serverless",
+    "serverlessdays",
+    "Fukuoka"
+  ],
+  "author": "seike460",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seike460/serverlessdays-fukuoka/issues"
+  },
+  "homepage": "https://github.com/seike460/serverlessdays-fukuoka#readme"
+}
