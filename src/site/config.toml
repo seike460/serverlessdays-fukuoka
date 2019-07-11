@@ -1,6 +1,7 @@
 baseURL = "https://seike460.github.io/serverlessdays-fukuoka/"
 languageCode = "en-us"
 title = "ServerlessDays Fukuoka"
+canonifyurls = true
 
 [params]
     logo = "/images/logo_fukuoka.png"
