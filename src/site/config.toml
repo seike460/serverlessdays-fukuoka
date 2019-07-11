@@ -1,4 +1,4 @@
-baseURL = "https://seike460.github.io/serverlessdays-fukuoka/"
+baseURL = "./"
 languageCode = "en-us"
 title = "ServerlessDays Fukuoka"
 canonifyurls = true
@@ -11,7 +11,7 @@ canonifyurls = true
     city = "Fukuoka"
     twitter = "serverlessjp"
     email = "japan@serverlessdays.io"
-    backgroundImage = "/images/fukuoka_blue.jpg"
+    backgroundImage = "/serverlessdays-fukuoka/images/fukuoka_blue.jpg"
     backgroundImageAuthor = "Photo by Moyan Brenn"
     backgroundImageCopyRight = "CC BY"
     thumbnailImage = "/images/fukuoka-thumbnail-min.jpg"
