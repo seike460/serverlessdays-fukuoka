@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://seike460.github.io/serverlessdays-fukuoka/categories/</loc>
+    <loc>./categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://seike460.github.io/serverlessdays-fukuoka/</loc>
+    <loc>./</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://seike460.github.io/serverlessdays-fukuoka/tags/</loc>
+    <loc>./tags/</loc>
     <priority>0</priority>
   </url>
   
