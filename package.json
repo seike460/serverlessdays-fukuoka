@@ -6,6 +6,11 @@
     "type": "git",
     "url": "git+https://github.com:seike460/serverlessdays-fukuoka.git"
   },
+  {
+    "scripts": {
+    "build": "hugo -v -s src/site",
+    "deploy": "gh-pages -d src/site/public/"
+  },
   "keywords": [
     "serverless",
     "serverlessdays",
@@ -16,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/seike460/serverlessdays-fukuoka/issues"
   },
-  "homepage": "https://github.com/seike460/serverlessdays-fukuoka#readme"
+  "homepage": "https://github.com/seike460/serverlessdays-fukuoka#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
