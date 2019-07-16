@@ -1,4 +1,4 @@
-baseURL = "https://seike460.github.io/serverlessdays-fukuoka/"
+baseURL = "./"
 languageCode = "en-us"
 title = "ServerlessDays Fukuoka"
 canonifyurls = true
@@ -11,7 +11,7 @@ canonifyurls = true
     city = "Fukuoka"
     twitter = "serverlessjp"
     email = "japan@serverlessdays.io"
-    backgroundImage = "/images/fukuoka_blue.jpg"
+    backgroundImage = "/serverlessdays-fukuoka/images/fukuoka_blue.jpg"
     backgroundImageAuthor = "Photo by Moyan Brenn"
     backgroundImageCopyRight = "CC BY"
     thumbnailImage = "/images/fukuoka-thumbnail-min.jpg"
@@ -84,12 +84,12 @@ canonifyurls = true
 
 [[params.dates_ja]]
     date = "2019年12月14日"
-    text = "ServerlessDays Fukuokaカンファレンスデイ@博多駅周辺"
+    text = "ServerlessDays Fukuokaカンファレンスデイ@LINE Fukuoka"
     done = false
 
 [params.venue]
-    name = "Comming Soon..."
-    link = ""
-    map = ""
-    text = "We are planning around the Hakata Station.;-)"
-    text_ja = "博多駅周辺を予定しております。"
+    name = "LINE Fukuoka株式会社"
+    link = "https://linefukuoka.co.jp/ja/"
+    map = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13294.62732071876!2d130.4190616!3d33.5882583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8dd36b398d44a197!2zTElORSBGdWt1b2th5qCq5byP5Lya56S-!5e0!3m2!1sja!2s jp!4v1563257449637!5m2!1sja!2sjp"
+    text = "JRJP Hakata Bldg. 12F, 8-1 Hakataekichuogai, Hakata Ward, Fukuoka, Fukuoka Prefecture 812-0012"
+    text_ja = "〒812-0012 福岡県福岡市博多区博多駅中央街8-1 JRJP博多ビル12F"
