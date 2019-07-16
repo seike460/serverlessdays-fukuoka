@@ -1,4 +1,4 @@
-baseURL = "./"
+baseURL = "https://fukuoka.serverlessdays.io/"
 languageCode = "en-us"
 title = "ServerlessDays Fukuoka"
 canonifyurls = true
