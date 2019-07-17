@@ -28,7 +28,7 @@ jobs:
             hugo -v -s src/site
       - add_ssh_keys:
           fingerprints:
-            - "58:53:fc:d1:47:7f:4a:2a:db:46:15:c8:4b:6c:98:03"
+            - "b9:0e:6b:5e:fe:2f:aa:b2:f6:05:25:97:8f:33:93:94"
       - deploy:
           command: |
             cd src/site/public
