@@ -28,11 +28,10 @@ jobs:
             hugo -v -s src/site
       - add_ssh_keys:
           fingerprints:
-            - "e7:8d:ec:2d:9a:bd:27:0b:cb:cb:7a:2c:56:cd:3a:84"
+            - "58:53:fc:d1:47:7f:4a:2a:db:46:15:c8:4b:6c:98:03"
       - deploy:
           command: |
             cd src/site/public
             git add --all
             git commit --allow-empty -m "Automated publish to gh-pages [ci skip]"
             git push
-
