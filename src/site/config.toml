@@ -5,15 +5,13 @@ canonifyurls = true
 
 [params]
     logo = "/images/logo_fukuoka.png"
-    description = "A community based conference focusing on Serverless based platforms and technologies. Fukuoka, October, 2019"
+    description = "A community based conference focusing on Serverless based platforms and technologies. Fukuoka, December, 2019"
     mascot = "/images/Anteater_mascot.png"
     date = "December 14, 2019"
     city = "Fukuoka"
     twitter = "serverlessjp"
     email = "japan@serverlessdays.io"
     backgroundImage = "/images/fukuoka_blue.jpg"
-    backgroundImageAuthor = "Photo by Moyan Brenn"
-    backgroundImageCopyRight = "CC BY"
     thumbnailImage = "/images/fukuoka-thumbnail-min.jpg"
     ccLink = "https://creativecommons.org/licenses/by/2.0/"
     prospectus = "https://www.dropbox.com/s/b1rdbmc14fv7lta/ServerlessDaysJapanTour2019_Overview4Sponsors.2019.6.pdf"
@@ -22,15 +20,15 @@ canonifyurls = true
     ticketSaleUrl = "https://serverlessdays-fukuoka-2019.eventbrite.com"
     cfpDate = "early August, 2019"
     cfpDate_ja = "2019年8月上旬"
-    cfpEndDate = "early November, 2019"
-    cfpEndDate_ja = "2019年11月上旬"
+    cfpEndDate = "early October, 2019"
+    cfpEndDate_ja = "2019年10月上旬"
     cfpUrl = "https://www.papercall.io/slsdaysfukuoka2019"
-    emailForm = "https://forms.gle/xCB8wPj48hEf8t8E7"
+    emailForm = "https://forms.gle/HPCXnrR6hMZDNDTc6"
 
 [[params.dates]]
     date = "early August, 2019"
     text = "CFP Opens"
-    done = true
+    done = false
 
 [[params.dates]]
     date = "early September, 2019"
@@ -38,12 +36,12 @@ canonifyurls = true
     done = false
 
 [[params.dates]]
-    date = "early November, 2019"
+    date = "early October, 2019"
     text = "CFP closes"
     done = false
 
 [[params.dates]]
-    date = "Late November, 2019"
+    date = "Late October, 2019"
     text = "Speakers announced"
     done = false
 
@@ -68,12 +66,12 @@ canonifyurls = true
     done = false
 
 [[params.dates_ja]]
-    date = "2019年11月上旬"
+    date = "2019年10月上旬"
     text = "CFP募集締切"
     done = false
 
 [[params.dates_ja]]
-    date = "2019年11月下旬"
+    date = "2019年10月下旬"
     text = "スピーカー発表"
     done = false
 
