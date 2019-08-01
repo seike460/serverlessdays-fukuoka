@@ -18,17 +18,17 @@ canonifyurls = true
     ticketDate = "early September, 2019"
     ticketDate_ja = "2019年9月上旬"
     ticketSaleUrl = "https://serverlessdays-fukuoka-2019.eventbrite.com"
-    cfpDate = "early August, 2019"
-    cfpDate_ja = "2019年8月上旬"
+    cfpDate = "August 1, 2019"
+    cfpDate_ja = "2019年8月1日"
     cfpEndDate = "early October, 2019"
     cfpEndDate_ja = "2019年10月上旬"
     cfpUrl = "https://www.papercall.io/slsdaysfukuoka2019"
     emailForm = "https://forms.gle/HPCXnrR6hMZDNDTc6"
 
 [[params.dates]]
-    date = "early August, 2019"
+    date = "August 1, 2019"
     text = "CFP Opens"
-    done = false
+    done = true
 
 [[params.dates]]
     date = "early September, 2019"
@@ -56,7 +56,7 @@ canonifyurls = true
     done = false
 
 [[params.dates_ja]]
-    date = "2019年8月上旬"
+    date = "2019年8月1日"
     text = "CFP募集開始"
     done = true
 
