@@ -31,17 +31,17 @@ canonifyurls = true
     done = true
 
 [[params.dates]]
-    date = "early September, 2019"
+    date = "early October, 2019"
     text = "Tickets go on sale"
     done = false
 
 [[params.dates]]
-    date = "early October, 2019"
+    date = "Late October, 2019"
     text = "CFP closes"
     done = false
 
 [[params.dates]]
-    date = "Late October, 2019"
+    date = "early November, 2019"
     text = "Speakers announced"
     done = false
 
@@ -61,17 +61,17 @@ canonifyurls = true
     done = true
 
 [[params.dates_ja]]
-    date = "2019年9月上旬"
+    date = "2019年10月初旬"
     text = "チケット販売開始"
     done = false
 
 [[params.dates_ja]]
-    date = "2019年10月上旬"
+    date = "2019年10月下旬"
     text = "CFP募集締切"
     done = false
 
 [[params.dates_ja]]
-    date = "2019年10月下旬"
+    date = "2019年11月初旬"
     text = "スピーカー発表"
     done = false
 
