@@ -5,7 +5,7 @@ jobs:
       only: master
     docker:
       - image: circleci/node:latest
-    working_directory: ~/hugo
+    working_directory: ~/serverless
     steps:
       - checkout
       - run:
@@ -23,9 +23,9 @@ jobs:
           command: |
              git worktree add -B gh-pages src/site/public origin/gh-pages
       - run:
-          name: Hugo build
+          name: gulp build
           command: |
-            hugo -v -s src/site
+            gulp dist-product
       - add_ssh_keys:
           fingerprints:
             - "b9:0e:6b:5e:fe:2f:aa:b2:f6:05:25:97:8f:33:93:94"
