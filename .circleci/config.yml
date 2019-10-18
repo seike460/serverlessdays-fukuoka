@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Git worktree
           command: |
-             git worktree add -B gh-pages src/site/public origin/gh-pages
+             git worktree add -B gh-pages public origin/gh-pages
       - run:
           name: npm install
           command: |
@@ -35,7 +35,6 @@ jobs:
             - "b9:0e:6b:5e:fe:2f:aa:b2:f6:05:25:97:8f:33:93:94"
       - deploy:
           command: |
-            mkdir pages
             cp -pfRv dist-product/public/* pages/
             cd pages
             git add --all
