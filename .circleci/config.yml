@@ -4,7 +4,7 @@ jobs:
     branches:
       only: master
     docker:
-      - image: cibuilds/hugo:latest
+      - image: circleci/node:latest
     working_directory: ~/hugo
     steps:
       - checkout
@@ -31,7 +31,8 @@ jobs:
             - "b9:0e:6b:5e:fe:2f:aa:b2:f6:05:25:97:8f:33:93:94"
       - deploy:
           command: |
-            cd src/site/public
+            cp -pfRv dist-product/public/* pages/
+            cd pages
             git add --all
             git commit --allow-empty -m "Automated publish to gh-pages [ci skip]"
             git push
