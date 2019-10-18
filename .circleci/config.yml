@@ -29,7 +29,7 @@ jobs:
       - run:
           name: gulp build
           command: |
-            gulp dist-product
+            ./node_modules/.bin/gulp dist-product
       - add_ssh_keys:
           fingerprints:
             - "b9:0e:6b:5e:fe:2f:aa:b2:f6:05:25:97:8f:33:93:94"
