@@ -17,4 +17,5 @@ tags
 
 src/site/public
 
-node_modules/
+dist-product/*
+node_modules/*
