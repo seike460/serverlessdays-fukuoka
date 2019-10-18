@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Git worktree
           command: |
-             git worktree add -B gh-pages public origin/gh-pages
+             git worktree add -B gh-pages pages origin/gh-pages
       - run:
           name: npm install
           command: |
