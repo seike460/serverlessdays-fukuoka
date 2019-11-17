@@ -4,7 +4,7 @@
     "notify": true
   },
   "browserSyncWatchFiles": [
-    "./public/assets/img/*",
+    "./public/assets/images/*",
     "./public/assets/css/*.min.css",
     "./public/assets/js/*.min.js",
     "./**/*.php",
@@ -13,7 +13,7 @@
   "paths": {
     "js": "./public/assets/js",
     "css": "./public/assets/css",
-    "img": "./public/assets/img",
+    "img": "./public/assets/images/",
     "imgsrc": "./assets/src/img",
     "sass": "./public/assets/scss",
     "node": "./node_modules/",
